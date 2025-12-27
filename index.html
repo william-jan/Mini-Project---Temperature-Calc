@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Calulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <p class="description">
+        Suhu adalah besaran fisika yang menyatakan tingkat panas atau dingin suatu benda,
+        yang berkaitan dengan energi kinetik rata-rata partikel penyusunnya.
+        Semakin tinggi suhu suatu benda, semakin cepat partikel-partikelnya bergerak.
+    </p>
+
+    <p class="description">
+        Aplikasi ini mendukung konversi antara empat skala suhu utama:
+        <strong>Celsius (°C)</strong>, <strong>Fahrenheit (°F)</strong>,
+        <strong>Kelvin (K)</strong>, dan <strong>Réaumur (°Ré)</strong>.
+        Skala Kelvin merupakan satuan suhu dalam Sistem Internasional (SI)
+        dan memiliki titik nol mutlak pada 0 K.
+    </p>
+
+    <div class="container">
+        <h1>Temperature Converter</h1>
+
+        <div class="input-container">
+            <input type="number" id="input" placeholder="Enter Temperature">
+            <select id="unit">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+                <option value="reamur">Reamur</option>
+            </select>
+        </div>
+
+        <div class="output-container">
+            <input type="number" id="output" readonly>
+            <select id="unit2">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+                <option value="reamur">Reamur</option>
+            </select>
+        </div>
+
+        <button id="convert">Convert</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
