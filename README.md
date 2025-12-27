@@ -10,3 +10,5 @@ This project is built using **HTML, CSS, and JavaScript** as a learning exercise
 - Convert temperature between:
   - Celsius (°C)
   - Fahrenheit (°F)
+  - Kelvin (°K)
+  - Reamur (°R)
